@@ -1,0 +1,884 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    
+}
+.stn1
+{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(255, 192, 238);
+}
+.nav
+{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    /* height: 3000px; */
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    /* background-color: white; */
+}
+.nav img
+{
+    height: 35px;
+    width: 160px;
+    margin: 20px 20px;
+}   
+.nav ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+    width: 70%;
+    height: 40px;
+    margin-left: -15px;
+    padding: 0;
+}
+
+ul li
+{
+    float: left;
+}
+
+li a, .dropbtn
+{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn
+{
+    color: blueviolet;
+}
+
+li.dropdown
+{
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 350px;
+    width: 25%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: rgb(255, 192, 238);
+    
+}
+.dropdown:hover .dropdown-content
+    {
+    display: block;
+}
+.nav .lgn
+{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    margin-left: 25.5px;
+    margin-right: 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav .lgn1
+{
+    height: 80px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0px 30px;
+    background-color:brown;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.nav .lgn1:hover
+{
+    background-color: rgb(90, 20, 20);
+    transition-duration: 0.5s;
+}
+.stn1 h1
+{
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+.stn1 p
+{
+    font-size: 22px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.stn1 .btn5
+{
+    text-align: center;
+    padding: 15px 35px;
+    margin-left: 660px;
+    margin-top: 50px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+}
+.stn1 .btn5:hover
+{
+    background-color: rgb(90, 20, 20);
+    transition-duration: 0.5s;
+}
+.stn1 video
+{
+    margin-top: 50px;
+}
+.stn2
+{
+    height: 100vh;
+    width: 100%;
+}
+.stn2 .main
+{
+    height: 550px;
+    width: 80%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: end;
+    margin-inline-start: 150px;   
+    display: flex;
+
+}
+.main div h4
+{
+    font-size: 30px;
+}
+.main div .p1
+{
+    margin-top: 20px;
+    text-align: start;
+    font-size: 17px;
+    line-height: 25px;
+}
+.main div .p2
+{
+    margin-top: 20px;
+    text-align: start;
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 65px;
+}
+.main div .p3
+{
+    margin-top: 20px;
+    text-align: start;
+    font-size: 17px;
+    line-height: 25px;
+    position: relative;
+    left: 45px;
+}
+.stn3
+{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.stn3 .js
+{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    margin-left: 75px;
+}
+.js .txt 
+{
+    padding: 100px 50px;
+    width: 50%;
+}
+.txt h2
+{
+    font-size: 50px;
+}
+.txt p
+{
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.txt .para
+{
+    display: grid;
+    grid-template-columns: 44.5% 55.5%;
+    margin-top: 15px;
+    grid-gap: 20px;
+}
+.txt .para p
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.txt .para i
+{
+    font-size: 17px;
+    margin-right: 10px;
+    background-color: rgb(204, 226, 246);
+    border-radius: 50px;
+    border: 10px solid rgb(204, 226, 246);
+}
+.btn11
+{
+    border: 1px solid rgb(23, 23, 91);
+    padding: 11px 25px;
+    background-color: white;
+    font-size: 18px;
+    color: rgb(23, 23, 91);
+    margin-top: 30px; 
+}
+.btn11 i
+{
+    margin-left: 10px;
+}
+.btn11:hover
+{
+    background-color: rgb(23, 23, 91);
+    color: white;
+    transition-duration: 0.6s;
+}
+.js .image
+{
+    background-color: rgb(22, 71, 22);
+    height: 75vh;
+    width: 40%;
+    margin-top: 17px;
+    margin-left: 70px;
+}
+.image .im1
+{
+    height: 45vh;
+    width: 85%;
+    margin-left: 81.5px;
+    margin-top: 100px;
+}
+.image .im2
+{
+    transform: translate(35px,-470px);
+}
+.image .im3
+{
+    transform: translate(130px,-360px);
+}
+.image .im4
+{
+    transform: translate(-30px,-84px);
+}
+.image .im5
+{
+    transform: translate(35px,-210px);
+}
+.stn4
+{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+}
+.stn4 h1
+{
+    text-align: center;
+    font-size: 50px;
+}   
+.stn4 p
+{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    font-family: sans-serif;
+}
+.stn4 .men
+{
+    height: 80vh;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.men .text1
+{
+    width: 30%;
+    margin-left: 30px;
+    height: 80vh;
+}
+.text1 p
+{
+    text-align: start;
+    padding-left: 20%;
+    margin-top: 15px;
+}
+.text1 p:hover
+{
+    color: rgb(233, 32, 233);
+}
+.men .imge
+{
+    background-image: url(a08.png);
+    height: 100vh;
+    width: 65%;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.imge p
+{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: start;
+    transform: translateY(520px);
+}
+.imge p span
+{
+    font-weight: bold;
+}
+.last
+{
+    height: 60vh;
+    width: 100%;
+    padding-inline: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.last .tt2 img
+{
+    position: relative;
+    right: 22px;
+}
+.last .tt h4
+{
+    text-align: start;
+    font-size: 19px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.last .tt p
+{
+    text-align: start;
+    line-height: 23px;
+    font-size: 17px;
+    padding-top: 15px;
+}
+.frst
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(6, 54, 13);
+}
+.frst .imgo img
+{
+    height: 450px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+.frst .popo h6
+{
+    font-size: 30px;
+    color: white;
+    line-height: 40px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    transform: translateY(160px);
+}
+.frst .popo p
+{
+    font-size: 25px;
+    color: white;
+    margin-left: 50px;
+    font-family: sans-serif;
+    transform: translateY(170px);
+}
+.frst .popo p span
+{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+.frst1
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(174, 182, 212);
+}
+.frst1 .imgo img
+{
+    height: 450px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+.frst1 .popo h6
+{
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    transform: translateY(160px);
+}
+.frst1 .popo p
+{
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    transform: translateY(170px);
+}
+.frst1 .popo p span
+{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+.frst i
+{
+    font-size: 50px;
+    padding-left: 40px;  
+    transform: translate(-20px,150px);
+    color: white;
+}
+.frst1 i
+{
+    font-size: 50px;
+    padding-left: 40px;  
+    transform: translate(-20px,150px);
+    color: white;
+}
+.stn7
+{
+    height: 130vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    padding-inline: 50px;
+}
+.stn7 .sony
+{
+    height: 100vh;
+    width: 50%;
+    margin-top: 150px;
+
+}
+.stn7 .sony p
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+.stn7 .sony h3
+{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.stn7 .sony .point
+{
+    font-weight: lighter;
+    font-family: none;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.stn7 .ten
+{
+    height: 100vh;
+    width: 50%;
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 50px;
+}
+.ten .peg h5
+{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.ten .peg p
+{
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 10px;
+}
+.ten .peg button
+{
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    color: rgb(93, 15, 93);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ten .peg button i
+{
+    margin-left: 10px;
+}
+.ten .peg button:hover ::after
+{
+    content: '_______________';
+    position: relative;
+    top: 15px;
+    right: 136px;
+}
+.ten .peg2 button:hover ::after
+{
+    content: '____________________';
+    position: relative;
+    top: 15px;
+    right: 175px;
+}
+.ten .peg3 button:hover ::after
+{
+    content: '______________';
+    position: relative;
+    top: 15px;
+    right: 120px;
+}
+.stn8
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding-inline: 50px;
+}
+.stn8 div
+{
+    width: 50%;
+    padding-left: 100px;
+}
+.stn8 .p0
+{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 150px;
+}
+.stn8 h4
+{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.stn8 .p10
+{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.stn8 button
+{
+    font-size: 20px;
+    background-color: white;
+    padding: 9px 20px;
+    margin-top: 40px;
+    border: 1px solid rgb(26, 26, 121);
+}
+.stn8 button i
+{
+    padding-left: 15px;
+}
+.stn8 button:hover
+{
+    background-color: rgb(26, 26, 121);
+    color: white;
+    transition-duration: 0.5s;
+}
+.stn8 .imu
+{
+    padding-top: 80px;
+    margin-right: 100px;
+}
+.stn9
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+.stn9 .oop
+{
+    display: grid;
+    margin-top: 50px;
+    padding-inline: 50px;
+    font-size: 50px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 120px;
+}
+.stn9 .oop p
+{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.stn10
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.stn10 .text5 .tmt2
+{
+    height: 340px;
+    width: px;
+    position: relative;
+    left: 20px;
+    bottom: 400px;
+    background-color: rgb(221, 255, 252);
+}
+.text5 .tmt2 h4
+{
+    font-size: 20px;
+    padding: 40px 40px;
+    font-family: sans-serif;
+}
+.text5 .tmt2 p
+{
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 40px;
+    transform: translateY(-20px);
+    font-family: sans-serif;
+}
+.text5 .tmt2 button
+{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 40px;
+    display: block;
+}
+.text5 .tmt2 button i
+{
+    margin-left: 15px;
+}
+.text5 .tmt2 button:hover::after
+{
+    content: '_________________';
+    display: block;
+}
+.stn10 .text5 .tmt1
+{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    left: 230px;
+    top: 300px;
+    background-color: rgb(221, 255, 252);
+}
+.text5 .tmt1 h4
+{
+    font-size: 20px;
+    padding: 40px 40px;
+    font-family: sans-serif;
+}
+.text5 .tmt1 p
+{
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 40px;
+    transform: translateY(-20px);
+    font-family: sans-serif;
+}
+.text5 .tmt1 button
+{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.text5 .tmt1 button i
+{
+    margin-left: 10px;
+}
+.text5 .tmt1 button:hover::after
+{
+    content: '____________';
+    display: block;
+}
+.stn10 .imgd img
+{
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+.stn11
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    padding-inline: 50px;
+    background-color: rgb(244, 207, 234);
+}
+.stn11 .popat
+{
+    width: 50%;
+    margin-top: 100px;
+}
+.popat h1
+{
+    font-size: 50px;
+    padding-left: 50px;
+}
+.popat p
+{
+    font-size: 20px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-left: 50px;
+}
+.popat button
+{
+    margin: 50px 50px;
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid rgb(26, 26, 121);
+}
+.popat button i
+{
+    margin-left: 15px;
+}
+.popat button:hover
+{
+    background-color: rgb(26, 26, 121);
+    transition-duration: 0.5s;
+    color: white;
+}
+.stn11 .imgv
+{
+    margin-right: 50px;
+    margin-top: 70px;
+}
+.stn20
+{
+    height: 110vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(139, 0, 74);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.stn20 .footer
+{
+    height: 80vh;
+    transform: translateY(-25px);
+    width: 200px;
+}
+.footer h5
+{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: plum;
+    text-transform: capitalize;
+}
+.stn20 .footer p
+{
+    color: white;
+    transform: translateY(20px);
+    font-size: 15px;
+    line-height: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.footer2 .heading5
+{
+    margin-top: 70px;
+}
+.stn20 .footer5
+{
+    width: 300px;
+}
+.stn20 .footer5 .para5
+{
+    line-height: 28px;    
+}
+.footer5 h6
+{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: plum;
+}
+.footer5 h5
+{
+    padding-top: 80px;
+    font-size: 20px;
+}
+.footer5 form input
+{
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+.footer5 form button
+{
+    padding: 12px 15px;
+    border-left: none;
+    margin-top: 30px;
+    color: darkmagenta;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: plum;
+}
+.stn20 .footer .para8
+{
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.stn20 .footer .para8 span
+{
+    font-size: 17px;
+}
+.stn20 .footer5 .para10 i
+{
+    margin-top: 80px;
+    color: white;
+    padding-inline: 9px;
+    font-size: 22px;
+}
+.stn20 .footer5 .para15
+{
+    font-size: 14px;
+    margin-left: 10px;
+}
